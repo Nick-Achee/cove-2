@@ -20,6 +20,7 @@ Handmade in Sunny Southern California
     </div>  
     <video
     autoPlay
+    playsInline
     loop
     muted
     className="absolute -z-10 h-screen w-screen object-cover"
