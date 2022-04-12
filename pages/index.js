@@ -9,14 +9,14 @@ export default function Home() {
     <div className="flex justify-center items-center  h-screen">
     <div className="p-4">
     <Image src="/cove.png" alt="logo" width={600} height={200} />
-    <div className="text-xl flex justify-center items-center text-center font-bold">Organic + Vegan Dark Chocolate <br/>
+    <div className="text-xl flex justify-center text-chocolate items-center font-bely text-center font-bold">Organic + Vegan Dark Chocolate <br/>
 Handmade in Sunny Southern California
-</div><div className="mt-10 grid grid-cols-2	 ">
-<button className="bg-[#6b470f] p-3 text-white shadow-md rounded-md">Contact</button>
-<button><Link href="https://instagram.com/cove.chocolate/">
-<Image src="/instaLogo.png" alt="logo" width={50} height={50} /></Link>
+</div><div className="mt-4 flex justify-center items-center space-x-4	 ">
+<a href="mailto:covechocolate@gmail.com"><button className="bg-[#6b470f]  font-bely p-3 px-10 mb-1 text-white shadow-xl rounded-xl">
+ Contact</button></a>
+<button><a href="https://instagram.com/cove.chocolate/">
+<Image src="/instaLogo.png" alt="logo" width={50} height={50} /></a>
 </button></div>
-<div className="bg-white font-bold p-10 shadow-md rounded-sm m-4 hover:text-white">Hello</div>
     </div>  
     <video
     autoPlay
