@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex justify-center items-center  h-screen">
     <div className="p-4">
     <Image src="/cove.png" alt="logo" width={600} height={200} />
-    <div className="text-xl flex justify-center text-chocolate items-center font-bely text-center font-bold">Organic + Vegan dark Chocolate <br /> family made and based out of Laguna Beach
+    <div className="text-xl flex justify-center text-chocolate items-center font-bely text-center font-bold">Organic + Vegan dark Chocolate <br /> family made and based out of Laguna Beach.
 </div><div className="mt-4 flex justify-center items-center space-x-4	 ">
 <a href="mailto:covechocolate@gmail.com"><button className="bg-[#6b470f]  font-bely p-3 px-10 mb-1 text-white shadow-xl rounded-xl">
  Contact</button></a>
